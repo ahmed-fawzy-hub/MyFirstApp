@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/download"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:textColor="@color/design_default_color_primary"
+        android:lines="1"
+        android:text="@string/enter_your_info"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/my_bk"
+        android:padding="16dp"
+        android:hint="@string/enter_your_username"
+        android:textColor="#757575"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawableTint="@color/material_dynamic_primary60" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        android:text="@string/btn_txt"
+        android:textColor="#000"
+        app:backgroundTint="@null"
+        android:background="@drawable/my_bk" />
+</LinearLayout>
